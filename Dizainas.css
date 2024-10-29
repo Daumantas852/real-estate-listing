@@ -1,0 +1,333 @@
+
+.house-details {
+    position: relative;
+    top: 600px;
+    height: 2065px;
+    margin-bottom: 550px;
+}
+
+.room-pane {
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+
+.imagescss {
+    color: #111;
+    background: grey;
+    box-shadow: 0 0 20px grey;
+}
+
+.House1 {
+    display: block;
+    position: relative;
+    width: 220px;
+    margin-bottom: 0px;
+    top: 40px;
+    left: 30px;
+}
+
+.Floors {
+    display: flex;
+    flex-direction: column;
+}
+
+.Floor-1 {
+    position: relative;
+    top: 180px;
+    left: -3px;
+    filter: grayscale();
+}
+
+    .Floor-1:hover {
+        cursor: pointer;
+        filter: none;
+    }
+
+.Floor-2 {
+    position: relative;
+    top: 4px;
+    left: 0px;
+    filter: grayscale();
+}
+
+    .Floor-2:hover {
+        cursor: pointer;
+        filter: none;
+    }
+
+.Floor-3 {
+    position: relative;
+    top: -166px;
+    left: 0px;
+    filter: grayscale();
+}
+
+    .Floor-3:hover {
+        cursor: pointer;
+        filter: none;
+    }
+
+.Apartament {
+    position: absolute;
+    scale: 0.4;
+    top: -138px;
+    right: 0px;
+    bottom: 0px;
+    left: 280px;
+}
+
+.Rooms {
+    width: 2000px;
+    border: black 1px;
+    content: "";
+}
+
+.RoomWalls {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.RoomsRow1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+.RoomsRow2 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+.Room1 {
+    position: relative;
+    top: -70px;
+    right: 0px;
+    bottom: 0px;
+    left: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .Room1:hover {
+        filter: sepia();
+        cursor: pointer;
+    }
+
+.Room2 {
+    position: relative;
+    top: 39px;
+    right: 0px;
+    bottom: 0px;
+    left: 166px;
+    padding: 0px;
+    margin: 0px;
+    scale: 1.02;
+    z-index: 2;
+}
+
+    .Room2:hover {
+        filter: sepia();
+        cursor: pointer;
+    }
+
+.Room3 {
+    position: relative;
+    top: -6px;
+    right: 0px;
+    bottom: 0px;
+    left: 92px;
+    padding: 0px;
+    margin: 0px;
+    scale: 1.01;
+}
+
+    .Room3:hover {
+        filter: sepia();
+        cursor: pointer;
+    }
+
+.Room4 {
+    position: relative;
+    top: -254px;
+    right: 0px;
+    bottom: 0px;
+    left: 116px;
+    padding: 0px;
+    margin: 0px;
+    scale: 1.02;
+}
+
+    .Room4:hover {
+        filter: sepia();
+        cursor: pointer;
+    }
+
+.Room5 {
+    position: relative;
+    top: -252px;
+    right: 0px;
+    bottom: 0px;
+    left: 106px;
+    padding: 0px;
+    margin: 0px;
+    scale: 1.01;
+}
+
+    .Room5:hover {
+        filter: sepia();
+        cursor: pointer;
+    }
+
+.Room6 {
+    position: relative;
+    position: relative;
+    top: -274px;
+    right: 0px;
+    bottom: 0px;
+    left: 564px;
+    padding: 0px;
+    margin: 0px;
+    scale: 1.04;
+    z-index: 2;
+}
+
+    .Room6:hover {
+        filter: sepia();
+        cursor: pointer;
+    }
+
+
+
+.house-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.house-price {
+    background-color: #f9f9f9;
+    padding: 10px;
+    
+    font-size: 40px;
+    position: absolute;
+    top: -480px;
+    left: 350px;
+    color: red;
+    font-weight: bold
+}
+
+.house-address {
+    font-weight: bold;
+    color: #555;
+    font-size: 15px;
+}
+
+.land-area, .room-count, .floor-count, .house-type, .year-built, .furnishing, .energy-efficiency {
+    color: #555;
+    font-family: Tahoma;
+}
+
+    .land-area span, .room-count span, .floor-count span, .house-type span, .year-built span, .furnishing span, .energy-efficiency span {
+        font-weight: bold;
+        font-size: 14px;
+        color: #333;
+        position: absolute;
+        left: 56%;
+        transform: translateX(0%);
+    }
+
+
+/* title editas */
+.wp-block-post-title {
+    text-align: center; /* Center the title */
+    color: #333; /* Change title color */
+    font-weight: bold; /* Make it bold */
+    margin-bottom: 20px; /* Add space below the title */
+}
+/* paragrafo editas */
+.single-house .entry-content p em {
+    position: relative;
+    text-align:center;
+    top: -40px;
+    right: 0px;
+    bottom: 0px;
+    left: 200px;
+    padding: 0px;
+    margin: 0px;
+    scale: 1.01;
+}
+
+
+/* namo paveiksliuko editas */
+.single-house .entry-content p img {
+    position: absolute;
+    top: 360px;
+    right: 0px;
+    bottom: 0px;
+    left: 190px;
+    padding: 0px;
+    margin: 0px;
+    width: 800px
+}
+
+
+.thumbnail-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+}
+
+.thumbnail {
+    margin: 5px; 
+    cursor: pointer; 
+}
+
+.imagescss2 {
+    border: 2px solid #ccc; 
+    transition: transform 0.3s; 
+}
+
+    .imagescss2:hover {
+        transform: scale(1.1); 
+    }
+
+#full-size-image {
+    margin-top: 20px; 
+}
+
+
+
+.gallery-grid {
+    display: grid; 
+    grid-template-columns: repeat(7, minmax(106px, 1fr)); 
+    gap: 10px; 
+    margin-top: 50px; 
+}
+
+.grid-item {
+    overflow: hidden; 
+    position: relative; 
+    left: -655px;
+    top:-2410px; 
+}
+
+.imagescss {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s; 
+}
+
+    .imagescss:hover {
+        transform: scale(1.05); 
+    }
+
+
